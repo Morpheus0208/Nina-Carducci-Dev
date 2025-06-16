@@ -71,8 +71,16 @@ body {
 	width: 100%;
 
 }
+.carousel-control-prev-icon::after {
+  display: none;
+}
 .carousel-control-prev-icon {
-	filter: brightness(0) invert(1);
+  background-image: url('./assets/images/prev-icon-orange.svg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 32px;
+  height: 32px;
 }
 #about-me {
 	flex: 2
