@@ -71,17 +71,6 @@ body {
 	width: 100%;
 
 }
-.carousel-control-prev-icon::after {
-  display: none;
-}
-.carousel-control-prev-icon {
-  background-image: url('./assets/images/prev-icon-orange.svg');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 32px;
-  height: 32px;
-}
 #about-me {
 	flex: 2
 }
@@ -100,7 +89,6 @@ body {
 	width: 80%;
 	font-size: 14px;
 }
-
 #gallery {
 	/*	min-height: 100vh; */
 }
@@ -112,7 +100,7 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: #000;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
