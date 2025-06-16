@@ -71,6 +71,9 @@ body {
 	width: 100%;
 
 }
+.carousel-control-prev-icon {
+	filter: brightness(0) invert(1);
+}
 #about-me {
 	flex: 2
 }
